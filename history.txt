@@ -28,7 +28,7 @@
   523  git status
   524  git log
   525  git checkout a1b
-  526  git checkout HEAD^
+  526  git reset --hard a1bfe
   527  git checkout -b cs
   528  git status
   529  git add main.cpp
