@@ -1,0 +1,46 @@
+  496  mkdir git-majonez
+  497  cd git-majonez/
+  498  git init
+  499  touch main.cpp
+  500  ls
+  501  vim main.cpp
+  502  ls
+  503  code main.cpp
+  504  cd git-majonez/
+  505  ls
+  506  g++ main.cpp
+  507  ./a.exe
+  508  git status
+  509  git add main.cpp
+  510  git commit -m "Initial commit"
+  511  git status
+  512  git show
+  513  git status
+  514  git add main.cpp
+  515  git commit -m "Farewell changed"
+  516  git remote add origin https://github.com/adrianz261/git-majonez.git
+  517  git branch -M master
+  518  git remote -v
+  519  git status
+  520  git push -u origin master
+  521  git status
+  522  git status
+  523  git status
+  524  git log
+  525  git checkout a1b
+  526  git checkout a1bfe
+  527  git checkout -b cs
+  528  git status
+  529  git add main.cpp
+  530  git commit -m "Greetings"
+  531  git status
+  532  git push origin cs
+  533  git checkout master
+  534  git status
+  535  git merge cs
+  536  git status
+  537  git commit
+  538  git add main.cpp
+  539  git commit
+  540  git status
+  541  history
