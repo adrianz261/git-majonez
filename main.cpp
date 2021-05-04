@@ -3,6 +3,6 @@
 int main()
 {
 
-    std::cout << "Goodbye World\n";
+    std::cout << "Goodbye Coders School\n";
     return 0;
 }
